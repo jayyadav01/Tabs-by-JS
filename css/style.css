@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to right,#93bc38,#009d9b);
+}
+.wrapper
+{
+    background-color: green;
+    width: 520px;
+    margin: auto;
+    margin-top: 100px;
+}
+ul
+{
+    display: flex;
+}
+li
+{
+    list-style: none;
+    margin: 0 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    
+}
+.actbutton
+{
+    color: #fff;
+    background-color: blue;
+    padding : 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #3e774c;
+}   
+
+h3
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.des
+{
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 20px;
+    margin: 100px auto;
+    display: none;
+}
+.active
+{
+    display: block;
+}
